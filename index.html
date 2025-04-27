@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Financial Management Dashboard</title>
+  
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <header>
+    Financial Management Dashboard
+  </header>
+
+  <div class="container">
+
+    <!-- Business Overview Section -->
+    <section class="cards" id="businessCards">
+      <!-- Business cards will be dynamically inserted here -->
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard">
+
+      <div class="charts">
+        <div class="chart-container">
+          <canvas id="revenueChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <canvas id="expenseChart"></canvas>
+        </div>
+        <div class="chart-container">
+          <canvas id="profitRadarChart"></canvas>
+        </div>
+      </div>
+
+      <div class="insights" id="insightCards">
+        <!-- Insights will be dynamically inserted here -->
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- Link to external JS -->
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
