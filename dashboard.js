@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function () {
+
 // Mock Data
 const businesses = [
   {
@@ -285,4 +287,5 @@ new Chart(document.getElementById('profitRadarChart'), {
       }
     }
   }
+});
 });
